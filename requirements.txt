@@ -15,6 +15,7 @@ scikit-learn
 
 # ── ML — install torch manually before this block ────────────────────────────
 # pip install torch --index-url https://download.pytorch.org/whl/cu121
+torch[cuda]
 torchmetrics
 pytorch-lightning
 pytorch-forecasting
