@@ -1,0 +1,20 @@
+# ── Web API ──────────────────────────────────────────────────────────────────
+fastapi==0.111.0
+uvicorn[standard]==0.29.0
+
+# ── Data ingestion ───────────────────────────────────────────────────────────
+yfinance==0.2.40
+curl_cffi
+feedparser==6.0.11
+APScheduler
+
+# ── Core numerics (install in this order — numpy FIRST) ──────────────────────
+numpy
+pandas
+scikit-learn
+
+# ── ML — install torch manually before this block ────────────────────────────
+# pip install torch --index-url https://download.pytorch.org/whl/cu121
+torchmetrics
+pytorch-lightning
+pytorch-forecasting
